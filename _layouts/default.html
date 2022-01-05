@@ -1,1 +1,23 @@
-<meta name="google-site-verification" content="S-7wz-wI5zRZucz0Gt3tF0m-VZDZGzvJndaW3EfOwi4" />
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <head>
+    <meta name="google-site-verification" content="S-7wz-wI5zRZucz0Gt3tF0m-VZDZGzvJndaW3EfOwi4" />
+
+  </head>
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
