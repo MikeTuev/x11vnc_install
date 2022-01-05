@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="S-7wz-wI5zRZucz0Gt3tF0m-VZDZGzvJndaW3EfOwi4" />
+
 # x11vnc_install
 x11vnc installation script for Debian11 with support of autostart in multi-user environment
 
@@ -7,5 +9,3 @@ x11vnc installation script for Debian11 with support of autostart in multi-user 
 5. ./x11vnc_install.sh
 
 Now x11vnc should be started automatically
-
-  test
